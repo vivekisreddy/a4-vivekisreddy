@@ -1,6 +1,4 @@
-Here’s a sample **README.md** for your application with a brief summary of the project, including the work you've done, and an explanation of the current issue with GitHub authentication:
 
-```markdown
 # Workout Tracker Web Application
 
 ## Project Summary
@@ -54,41 +52,40 @@ The GitHub authentication process is not working as expected. Specifically, afte
 ## Installation
 
 1. **Clone the Repository**:
-   ```bash
+  
    git clone https://github.com/your-username/workout-tracker.git
    cd workout-tracker
-   ```
+
 
 2. **Install Backend Dependencies**:
-   ```bash
+
    cd backend
    npm install
-   ```
+
 
 3. **Set up Environment Variables**:
    Create a `.env` file in the `backend` directory and add the following variables:
-   ```
+
    MONGO_URI=your_mongo_connection_string
    GITHUB_CLIENT_ID=your_github_client_id
    GITHUB_CLIENT_SECRET=your_github_client_secret
    JWT_SECRET=your_jwt_secret
-   ```
+   
 
 4. **Run the Backend**:
-   ```bash
+  
    npm start
-   ```
+
 
 5. **Install Frontend Dependencies**:
-   ```bash
+
    cd frontend
    npm install
-   ```
+
 
 6. **Run the Frontend**:
-   ```bash
    npm start
-   ```
+   
 
 The application should now be accessible at [http://localhost:3000](http://localhost:3000) for the frontend and [http://localhost:5001](http://localhost:5001) for the backend.
 
@@ -97,7 +94,6 @@ The application should now be accessible at [http://localhost:3000](http://local
 - This project is still in development, and GitHub authentication is currently the primary issue to resolve.
 - Partial credit will be given based on the completion of the backend, frontend, and the attempted GitHub authentication integration.
 
-```
 
 ### Key Highlights in the README:
 - **Project Summary**: Provides a brief overview of what the application does and its technologies.
@@ -105,4 +101,3 @@ The application should now be accessible at [http://localhost:3000](http://local
 - **GitHub Authentication Issue**: Describes the issue with GitHub login, likely related to configuration, and suggestions for next steps.
 - **Installation Instructions**: Provides clear steps for setting up both the backend and frontend for local development.
 
-Let me know if you'd like to adjust any details or further expand on specific sections!
